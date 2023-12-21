@@ -1,0 +1,18 @@
+.timeZoneList{
+  height: 200px;
+  overflow: auto;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+@media screen and (max-width:475px) {
+  .userinfo-container .time-zone-wrapper {
+    margin-top: 1rem;
+  }
+
+  .post-cards-listing {
+    padding: 0 1.5rem !important;
+  }
+}
